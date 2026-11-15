@@ -8,8 +8,8 @@ public class Box {
     Box() {
         System.out.println("Koнcтpyиpoвaниe объекта Вох");
         weight = 10;
-        height = 16;
-        depth = 20;
+        height = 10;
+        depth = 10;
     }
 
     double volume() {

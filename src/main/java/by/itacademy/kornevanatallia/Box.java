@@ -10,4 +10,8 @@ public class Box {
         height = h;
         depth = d;
     }
+
+    double volume() {
+        return weight * height * depth;
+    }
 }

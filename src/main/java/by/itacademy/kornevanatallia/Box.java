@@ -8,4 +8,10 @@ public class Box {
     double volume() {
         return weight * height * depth;
     }
+
+    void setDim(double w, double h, double d) {
+        weight = w;
+        height = h;
+        depth = d;
+    }
 }

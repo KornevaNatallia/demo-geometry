@@ -5,14 +5,9 @@ public class Box {
     double height;
     double depth;
 
-    Box() {
-        System.out.println("Koнcтpyиpoвaниe объекта Вох");
-        weight = 10;
-        height = 10;
-        depth = 10;
-    }
-
-    double volume() {
-        return weight * height * depth;
+    Box(double w, double h, double d) {
+        weight = w;
+        height = h;
+        depth = d;
     }
 }
